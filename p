@@ -4,18 +4,18 @@ pipeline
     agent none
     stages
       {
-        stage('Cloning git')
+        stage ('Cloning git')
           {
             steps
               {
                 echo "downloading sources"
                 git 'https://github.com/Vamshi1811/Vamshi.git'
               }
-        stage('Flow of execution')
+        stage ('Flow of execution')
           {
             parallel
              {
-                stage('Pipeline')
+                stage ('Pipeline')
                   {
                     agent
                       {
