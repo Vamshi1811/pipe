@@ -16,11 +16,24 @@ pipeline
           {
             parallel
              {
+             stage('Pipeline')
+             {
                     agent
                       {
                         label 'Pipeline'
                       }
+stages
+{
+stage('Clean')
+{
+steps
+{
+echo 'Cleaning'
+}
+}
 }
                       }
                       }
+                      }
+                      }     
                       }
