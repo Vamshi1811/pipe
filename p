@@ -1,7 +1,7 @@
 // Author : Vamshi
 pipeline
   {
-    agent none
+    agent any
     stages
       {
         stage ('Cloning git')
