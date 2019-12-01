@@ -16,13 +16,10 @@ pipeline
           {
             parallel
              {
-                stage ('Pipeline')
-                  {
                     agent
                       {
                         label 'Pipeline'
                       }
-}
 }
                       }
                       }
