@@ -1,4 +1,3 @@
-// Author : Vamshi
 pipeline
   {
     agent any
@@ -20,7 +19,7 @@ pipeline
              {
                     agent
                       {
-                        label 'Pipeline'
+                        label 'buildslave_CMTemplate'
                       }
 stages
 {
