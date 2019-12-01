@@ -11,6 +11,7 @@ pipeline
                 echo "downloading sources"
                 git 'https://github.com/Vamshi1811/Vamshi.git'
               }
+          }
         stage ('Flow of execution')
           {
             parallel
@@ -23,7 +24,6 @@ pipeline
                       }
 }
 }
-            }
                       }
                       }
                       }
