@@ -19,7 +19,7 @@ pipeline
                   {
                     agent
                       {
-                        label 'Pipeline"
+                        label 'Pipeline'
                       }
 }
 }
