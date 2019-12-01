@@ -17,17 +17,14 @@ pipeline
              {
              stage('Pipeline')
              {
-                    agent
-                      {
-                        label 'buildslave_CMTemplate'
-                      }
 stages
 {
 stage('Clean')
 {
 steps
 {
-echo 'Cleaning'
+build 'Pipeline'
+echo 'Building'
 }
 }
 }
